@@ -1,0 +1,181 @@
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #defafe, #cffcf1);
+  min-height: 100vh;
+}
+.heading {
+  color: #0f172a;
+  font-size: 20px;
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+}
+.timer-subcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+@media screen and (min-width: 768px) {
+  .timer-subcontainer {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 30px;
+  }
+}
+.timer-slot {
+  width: 100%;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  height: 50vh;
+  justify-content: center;
+  margin-left: 0px;
+}
+.timer-text {
+  background-color: #defafe;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .timer-slot {
+    width: 60%;
+  }
+  .timer-text {
+    border-radius: 100px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+.time {
+  font-size: 20px;
+  color: #00d9f5;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin: 0px;
+}
+@media screen and (min-width: 768px) {
+  .time {
+    font-size: 50px;
+  }
+}
+.situation-text {
+  color: #0f172a;
+  font-size: 10px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  margin: 0px;
+}
+@media screen and (min-width: 768px) {
+  .situation-text {
+    font-size: 30px;
+  }
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+@media screen and (min-width: 768px) {
+  .button-container {
+    width: 40%;
+  }
+}
+.horizantal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.start-container {
+  width: 100%;
+  justify-content: space-between;
+}
+.btn-icon {
+  width: 40px;
+  height: 40px;
+}
+.start-btn {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .btn-icon {
+    width: 60px;
+    height: 60px;
+  }
+}
+.btn-text {
+  font-size: 20px;
+  color: #0f172a;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-right: 10px;
+}
+.description {
+  font-size: 18px;
+  color: #0f172a;
+}
+@media screen and (min-width: 768px) {
+  .btn-text {
+    font-size: 40px;
+  }
+  .description {
+    font-size: 35px;
+  }
+}
+.increase-container {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.add-btn {
+  font-size: 35px;
+  font-weight: 500;
+  background: transparent;
+  outline: none;
+  border: none;
+}
+.initial-timer {
+  background-image: linear-gradient(to right, #cffcf1, #00d9f5);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  color: #0f172a;
+  font-size: 20px;
+  border-radius: 10px;
+}
+@media screen and (min-width: 768px) {
+  .add-btn {
+    font-size: 55px;
+  }
+  .initial-timer {
+    font-size: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
